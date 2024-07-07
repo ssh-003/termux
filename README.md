@@ -3,7 +3,8 @@
 
 - 🔭 I’m currently working on *------NONE*
 
-
+# Download TERMUX 
+<a href="https://f-droid.org/repo/">TERMUX</a>
 # Installation
 
 # Step 1
