@@ -122,7 +122,7 @@ echo "
 pkg install openjdk-17-jdk -y
 clear
 
-echo -e "Installing \e[1;37mPERL\e[0m.................."
+echo -e "Installing \e[1;38mPERL\e[0m.................."
 echo "
 
 "
@@ -150,5 +150,5 @@ echo -e "${RED}
 ${NC}"
 
 cd ..
-echo "             Complete Your all Package"
+echo "                  Complete Your all Package"
 rm -rf setup.sh
