@@ -10,12 +10,14 @@
 ```
 yes | pkg up
 pkg install git -y
+clear
 ```
 # Step 2 
 ```
 git clone https://github.com/ssh-003/termux.git
 cd termux
-bash setup.sh 
+bash setup.sh
+clear
 ```
 # Step 3
 ```
