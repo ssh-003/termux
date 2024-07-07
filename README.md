@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋 I'm ARJUN</h1>
 <h2 align="center">A passionate frontend developer from NEPAL</h2>
 
-- 🔭 I’m currently working on **NA**
+- 🔭 I’m currently working on *------NONE*
 
 
 # Installation
@@ -43,7 +43,7 @@ javaScript is installed
 
 
 
-[Sun Jul  7 11:51:56 2024] PHP 8.3.8 Development Server (http://localhost:8000) started
+PHP 8.3.8 Development Server (http://localhost:8000) started
 </pre>
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
