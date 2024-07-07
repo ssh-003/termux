@@ -27,9 +27,9 @@ perl test.pl
 echo "Html is installade"
 echo "Css is installed"
 echo "javaScript is installed"
-echo "//-------------------–-------–--------------------------/"
-echo "(Copy    http://localhost:8000    and Goto web browser)"
-echo "
-
-"
-php -S localhost:8000
+python3 -m http.server &
+SERVER_PID=$!
+sleep 5
+xdg-open http://localhost:8000
+sleep 60
+kill $SERVER_PID
