@@ -9,7 +9,7 @@
 # Step 1
 ```
 yes | pkg up
-pkg install git
+pkg install git -y
 ```
 # Step 2 
 ```
