@@ -47,7 +47,7 @@ javaScript is installed
 (Copy    https://localhost:8000    and Goto web browser)
 
 
-
+  
 PHP 8.3.8 Development Server (http://localhost:8000) started
 </pre>
 <h3 align="left">Languages and Tools:</h3>
@@ -57,16 +57,54 @@ PHP 8.3.8 Development Server (http://localhost:8000) started
 <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a><a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a><a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
 
 </p>
-<pre> 
+# Another Chack copy code past
+```
+check_command() {
+    if command -v $1 &> /dev/null
+    then
+        echo "$1 is installed"
+    else
+        echo "$1 is not installed"
+    fi
+}
 
+echo "Checking PHP..."
+check_command php
 
+echo "Checking Python..."
+check_command python3
 
+echo "Checking Ruby..."
+check_command ruby
 
+echo "Checking Node.js..."
+check_command node
 
+echo "Checking Shell..."
+echo "Shell is installed" 
 
+echo "Checking Java..."
+check_command javac
 
+echo "Checking Perl..."
+check_command perl
 
-</pre>
+echo "Checking C compiler (gcc)..."
+check_command gcc
+
+echo "Checking C++ compiler (g++)..."
+check_command g++
+
+echo "Checking HTML, CSS, JavaScript (using simple HTTP server)..."
+echo '<!DOCTYPE html><html><head><title>Test</title></head><body><h1>HTML is working</h1><style>body { background-color: lightblue; }</style><script>console.log("JavaScript is working");</script></body></html>' > index.html
+python3 -m http.server &
+SERVER_PID=$!
+sleep 5
+xdg-open http://localhost:8000
+sleep 60
+kill $SERVER_PID
+rm index.html
+```
 <p align="center">
   <img src="https://github.com/yezz123/yezz123/blob/master/img/img.gif">
   </p>
