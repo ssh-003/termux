@@ -4,7 +4,9 @@
 - 🔭 I’m currently working on *------NONE*
 
 # Download TERMUX 
-<a href="https://f-droid.org/repo/">TERMUX</a>
+<a href="https://f-droid.org/en/packages/com.termux/">Visit F-droid and Download TERMUX</a>
+
+<a href="https://f-droid.org/repo/com.termux_1020.apk">Daract download TERMUX.apk</a>
 # Installation
 
 # Step 1
