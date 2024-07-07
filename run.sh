@@ -1,8 +1,9 @@
-RED='\033[1;31m'
+clear 
+R='\033[1;32m'
 NC='\033[0m' # No Color
 
 # Print the ASCII art with red color
-echo -e "${RED}
+echo -e "${R}
              00000   00    00  00000000  
                 00   00    00        00
                 00   00    00        00
@@ -27,7 +28,7 @@ echo "Html is installade"
 echo "Css is installed"
 echo "javaScript is installed"
 echo "//-------------------–-------–--------------------------/"
-echo "(Copy    https://localhost:8000    and Goto web browser)"
+echo "(Copy    http://localhost:8000    and Goto web browser)"
 echo "
 
 "
