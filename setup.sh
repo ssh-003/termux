@@ -1,3 +1,4 @@
+clear
 RED='\033[1;31m'
 NC='\033[0m' 
 
@@ -150,5 +151,6 @@ echo -e "${RED}
 ${NC}"
 
 cd ..
-echo "                  Complete Your all Package"
+echo "                    Complete Your all Package"
+rm -rf README.md
 rm -rf setup.sh
